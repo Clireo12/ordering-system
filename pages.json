@@ -1,0 +1,98 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "蜜雪冰城"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "点餐"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/goods-detail/goods-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#6e6d6b",
+		"selectedColor": "#e64340",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/images/nav/home.png",
+				"selectedIconPath": "/static/images/nav/home-selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"iconPath": "/static/images/nav/menu.png",
+				"selectedIconPath": "/static/images/nav/me-selected.png",
+				"text": "点餐"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/images/nav/order.png",
+				"selectedIconPath": "/static/images/nav/order-selected.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/images/nav/me.png",
+				"selectedIconPath": "/static/images/nav/me-selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "蜜雪冰城",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"uniIdRouter": {}
+}
